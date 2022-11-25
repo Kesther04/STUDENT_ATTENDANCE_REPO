@@ -63,6 +63,12 @@ class SELE{
         $sel_ca = $con->query("SELECT * FROM student_sign_in WHERE course = '$course'   ");
         return $sel_ca->num_rows;
     }
+    
+    public function coral($reg,$course) {
+        require("database_connection.php");
+        $sel_coral = $con->query("SELECT * FROM student_sign_in  WHERE reg_no = '$reg' AND course = '$course' ORDER BY (date)DESC ");
+        return $sel_coral;
+    }
 
 }
 

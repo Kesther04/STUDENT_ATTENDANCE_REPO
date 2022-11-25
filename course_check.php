@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST") {
                 <form name="btn-form" action="student_course_check.php" class="scc-form" method="post">
                     <input type="hidden" value="<?php echo $dow['course']; ?>" name="course" required readonly>
                     <input type="hidden" value="<?php echo $date; ?>" name="date" required readonly>
-                    <button>VIEW</button>
+                    <button class="aj-btn">VIEW</button>
                 </form>
             </td>
         </tr>

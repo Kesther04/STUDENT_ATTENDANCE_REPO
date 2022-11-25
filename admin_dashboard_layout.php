@@ -13,6 +13,7 @@
         <div class="dash-b"><a href="index.php" target="blank">HOME</a></div>
         <div class="dash-b"><a href="student_reg_system.php">STUDENT REGISTRATION</a></div>
         <div class="dash-b"><a href="attend_check.php">ATTENDANCE CHECK</a></div>
+        <div class="dash-b"><a href="personal_attendance.php">PERSONAL ATTENDANCE</a></div>
         <div class="dash-b"><button onclick="if(window.confirm('Are you sure want to log out of this page')){window.location='index.php';}">LOG OUT</button></div>
         
     </div>

@@ -17,7 +17,7 @@
 
    
 
-    <section  class="main-div-container" >
+    <section  class="main-div-container">
 
     
     <form name="" class="scc-hid-form" action="student_course_check.php" method="post">
@@ -29,7 +29,7 @@
     </div>
     </form>
 
-    
+
     <form name="myform" class="depform" method="post" action="course_check.php">
 
     <div class="before-sec-div-container">

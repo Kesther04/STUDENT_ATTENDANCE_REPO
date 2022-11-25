@@ -9,7 +9,9 @@
     <title>HOME NILE</title>
 </head>
 <body>
+    <script src="jquery.js"></script>
     <script src="header_move.js"></script>
+    <script src="metro.js"></script>
     <div class="header">
             <div><img src="pic/30w.svg"></div>
 
@@ -38,15 +40,30 @@
             <p>NOTICE TO OUR DEAR PARENTS AND GUARDIANS ></p>
         </div>
 
+        
         <div class="bg-sean">
+            
+            
+            <div class="container">
+                
+                <img src="pic/3ar.png" width="60" class="prev" alt="Prev">
+                <img src="pic/5ar.png" width="65" class="next" alt="Next">
+                
+                <div class="bf-con"></div>
+                <div class="img-container">
+                    <img src="pic/4a.jpg" class="active" id="first">
+                    <img src="pic/4e.jpg">
+                    <img src="pic/4c.jpg">
+                    <img src="pic/4d.jpg" id="last">
+                </div>
+
+
+            </div>
+
             <div class="mini-bg-sean">
-            <h2>Find out about our exciting programmes</h2>
-            <p>
-                With world-class learning facilities, outstanding research opportunities and<br>
-                an experienced staff body, we are well placed to offer the best learning<br>
-                experience.
-            </p>
-            <p><button>LEARN MORE</button></p>
+                <h2>Find out about our exciting programmes</h2>
+                <p>With world-class learning facilities, outstanding research opportunities and<br>an experienced staff body, we are well placed to offer the best learning<br>experience.</p>
+                <p><button>LEARN MORE</button></p>
             </div>
         </div>
 

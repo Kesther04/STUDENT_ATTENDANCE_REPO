@@ -98,3 +98,23 @@ $(document).ready(function () {
         });
     });
 })
+
+
+
+$(document).ready(function () {
+    $(".scourseform").submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            url:'per_course_check.php',
+            type:'post',
+            data: new FormData(this),
+            cache:false,
+            contentType:false,
+            processData:false,
+            success:function (coursedatan) {
+                    $("#vis-con").css({'visibility':'visible'});
+                    $(".seco-div-container").html(coursedatan);
+            }
+        });
+    });
+})
