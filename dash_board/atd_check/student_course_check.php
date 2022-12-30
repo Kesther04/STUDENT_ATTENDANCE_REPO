@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST") {
 ?>
 
 <?php 
-    require("class/sel_class.php");   
+    require("../../class/sel_class.php");   
     $sel_obj = new SELE();  
    
 ?>

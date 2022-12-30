@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="school_reg.css" media="all">
-    <link rel="stylesheet" href="rep_school_reg.css" media="all">
+    <link rel="stylesheet" href="../../css/school_reg.css" media="all">
+    <link rel="stylesheet" href="../../css/rep_school_reg.css" media="all">    
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/ajax.js"></script>
+
     <title>ATTENDANCE</title>
 </head>
 <body>
     
-    <?php require("admin_dashboard_layout.php"); ?>
+    <?php require("../../nav/admin_dashboard_layout.php"); ?>
 
-    <script src="jquery.js"></script>
-    <script src="ajax.js"></script>
-
-   
 
     <section  class="main-div-container">
 
-    
+
     <form name="" class="scc-hid-form" action="student_course_check.php" method="post">
     <div id="masag-con">
         <div class="msgas">
@@ -35,7 +34,7 @@
     <div class="before-sec-div-container">
         <h1 style="text-align:center;">DEPARTMENT</h1>
 
-        <?php   require("class/sel_class.php");   $sel_obj = new SELE();  ?>
+        <?php   require("../../class/sel_class.php");   $sel_obj = new SELE();  ?>
         <table>
             <tr>
            

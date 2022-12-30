@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="school_reg.css" media="all">
-    <link rel="stylesheet" href="rep_school_reg.css" media="all">
+    <link rel="stylesheet" href="../../css/school_reg.css" media="all">
+    <link rel="stylesheet" href="../../css/rep_school_reg.css" media="all">
     <title>STUDENT REGISTRATION</title>
 </head>
 <body>
 
-<?php require("admin_dashboard_layout.php"); ?>
+<?php require("../../nav/admin_dashboard_layout.php"); ?>
 
 
 <div class="main-div-container">
@@ -22,8 +22,8 @@
 
 <h3 style="text-align:center;">STUDENT DETAILS</h3>
 
-<script src="jquery.js"></script>
-<script src="ajax.js"></script>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/ajax.js"></script>
 
 <div id="masag">
     <div class="msg">

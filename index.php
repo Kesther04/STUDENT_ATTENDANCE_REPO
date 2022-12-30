@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home_design.css" media="all">
-    <link rel="stylesheet" href="homethr_design.css" media="all">
+    <link rel="stylesheet" href="css/home_design.css" media="all">
+    <link rel="stylesheet" href="css/homethr_design.css" media="all">
     <title>HOME NILE</title>
 </head>
 <body>
-    <script src="jquery.js"></script>
-    <script src="header_move.js"></script>
-    <script src="metro.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/header_move.js"></script>
+    <script src="js/metro.js"></script>
     <div class="header">
             <div><img src="pic/30w.svg"></div>
 
@@ -24,7 +24,7 @@
                     <ul>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Study</a></li>
-                        <li><a href="student_sign_in.php">Attendance</a></li>
+                        <li><a href="sign_in/student_sign_in.php">Attendance</a></li>
                         <li><a href="#">Pay Fees</a></li>
                         <li><a href="#">Campus Life</a></li>
                         <li><a href="#">Library</a></li>

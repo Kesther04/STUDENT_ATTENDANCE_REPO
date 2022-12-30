@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD']=="POST") {
 
-    require("class/sel_class.php");
+    require("../class/sel_class.php");
     
     $course = $_POST['course'];
     $reg = $_POST['reg'];
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST") {
                 $fname = $dow['fullname'];
             }
 
-            require("class/class.php");
+            require("../class/class.php");
             $class_p = new ATT();
             $insat = $class_p-> sign($fname,$reg,$course,$sdep,$sfac,$date,$time);
             if ($insat) {    

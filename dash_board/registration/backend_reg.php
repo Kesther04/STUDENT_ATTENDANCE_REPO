@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST") {
     $hour = date("h")+1;
     $time = date("$hour:i:s.a");
 
-    require("class/class.php");
+    require("../../class/class.php");
 
     $class_p = new ATT();
 

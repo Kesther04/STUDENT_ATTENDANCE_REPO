@@ -1,6 +1,6 @@
     
-    <script src="jquery.js"></script>
-    <script src="ajax.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/ajax.js"></script>
 
 <?php
 if ($_SERVER['REQUEST_METHOD']=="POST") {
@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD']=="POST") {
 ?>
 
 <?php 
-    require("class/sel_class.php");   
+    require("../../class/sel_class.php");   
     $sel_obj = new SELE();  
    
     if ($date == "ALL") {

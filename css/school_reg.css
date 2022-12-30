@@ -38,26 +38,34 @@ body{
 
 .dash-b{
     border:0px solid green;
-    margin-top:10px;
-    margin-bottom: 10px;
-    padding:18px;
+    margin-top:1px;
+    margin-bottom: 1px;
     font-size: 18px;
+    width:100%;
+    float: left;
 }
 
-.dash-b:hover{
+
+.dash-b a{
+    text-decoration: none;
+    color:rgb(0,0,70);
+    width:100%;
+    float: left;
+    padding:18px;
+}
+
+
+.dash-b a:hover{
     background:rgba(52, 52, 171,0.6);
     color:whitesmoke;
     
 }
 
-.dash-b a{
-    text-decoration: none;
-    color:rgb(0,0,70);
-}
-
-.dash-b a:hover{
+.dactive{
+    background-color: rgba(52, 52, 171,0.6);
     color:whitesmoke;
 }
+
 
 .dash-b button{
     background:none;
@@ -65,10 +73,15 @@ body{
     border:0px solid green;
     font-size: 18px;
     color:rgb(0,0,70);
+    padding:18px;
+    float: left;
+    width:100%;
+    text-align: left;
 }
 
 .dash-b button:hover{
     color:whitesmoke;
+    background:rgba(52, 52, 171,0.6);
 }
 
 .main-div-container{

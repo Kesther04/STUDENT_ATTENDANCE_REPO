@@ -4,34 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="school_reg_pub.css" media="all">
-    <link rel="stylesheet" href="rep_school_reg.css" media="all">
-    <title>SIGN IN</title>
+    <link rel="stylesheet" href="../../css/school_reg.css" media="all">
+    <link rel="stylesheet" href="../../css/rep_school_reg.css" media="all">
+    <title>ATTENDANCE</title>
 </head>
+
 <body>
-    <div class="main-div-container">
-
-    <form name="myform" class="mxform" method="post" action="backend_class_sign_in.php">
     
-    <div class="sec-div-container">
-    <h1 style="text-align:center;">STUDENT SIGN UP</h1>
+    <?php require("../../nav/admin_dashboard_layout.php"); ?>
+
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/ajax.js"></script>
+
+
+    <section  class="main-div-container">
+
+    
+    <form name="myform" class="scourseform" method="post" action="per_course_check.php">
+
+    <div class="before-sec-div-container">
+        <h1 style="text-align:center;">STUDENT ATTENDANCE CHECK</h1>
+
+        <?php  
+             require("../../class/sel_class.php");   
+             $sel_obj = new SELE();  
+        ?>
         
-    <div id="masag">
-        <div class="msg">
-            <div class="msa"></div>
-            <button class="aj-btn"><a href="student_sign_in.php">OKAY</a></button>
-        </div>
-    </div>
+        <table>
+            <tr>
+           
+            <td>
+                    <span>STUDENT REG. NUMBER:</span>
+                   <input type="text" name="reg_no">
+                </td>
 
-    <script src="jquery.js"></script>
-    <script src="ajax.js"></script>
-    
-    <table width="100%">
-    <tr>
-        <td>
-            <span>COURSE:</span>
-            <select  name="course" required>
-                <option></option>
+            
+                <td>
+                    <span> COURSES:</span>
+                   <select  name="course">
+                        <option></option>
                 <option>Economics</option>
                 <option>Mathematics</option>
                 <option>Computer Science</option>
@@ -56,29 +67,26 @@
                 <option>Chemical Engineering</option>
                 <option>Software Engineering</option>
                 <option>Engineering</option>
-            </select>
-        </td> 
-    
-    
-    
+                    </select>
+                </td>
+          
+        </tr>
+        </table>
 
-        <td><span>REG NO:</span><input type="text"  name="reg" required></td> 
-    </tr>    
-    
-    <tr>
-        <td><span>PASSWORD:</span><input type="text"  name="pass" required></td> 
-    </tr>
-    </table>
-
-    
+        
     <div class="con-btn-div">
-        <button class="con-btn">SIGN IN</button>
+        <button class="con-btn">VIEW</button></div>
     </div>
-    
+
     </div>
+
 
     </form>
+
+    <div class="seco-div-container" id="vis-con"></div>
     
-    </div>
+    </section>
+
+
 </body>
 </html>
