@@ -42,11 +42,13 @@
         </div>
 
         <div class="bg-sean">
-              
+            
+            
             <div class="container">
                 <!-- Slider main container -->
                 <div class="swiper">
                     <!-- Additional required wrapper -->
+                    <div class="bf-con"></div>
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide"><img src="pic/4a.jpg"></div>
