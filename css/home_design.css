@@ -4,6 +4,7 @@
 
 body{
     margin:0;
+    padding:0;
 }
 
 .header{
@@ -12,7 +13,7 @@ body{
     float: left;
     border:0px solid red;
     position:fixed;top:0;
-    z-index: 10;
+    z-index: 30;
     background-attachment: scroll;
     background-color:white ;
     box-shadow:0px 0px 5px 0px rgb(155, 141, 141);
@@ -101,67 +102,49 @@ body{
     width:100%;
     height:680px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bf-con{
-    width:6400px;
-    position: absolute;
-    background-color: rgba(0,0,0,0.6); 
-    height: 100%;
-    float: left;
-}
 
 .container{
     width:100%;
-    overflow: hidden;
-    height:100%;
-    position: relative;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.img-container{
-    width:6400px;
-    float: left;
-    
+.swiper{
+    width:100%;
+    height:fit-content;   
 }
 
-.container .img-container img{
-    display: none;
-    width: 1600px;
-    height:100%;
-    float: left;
+.swiper-slide img{
+    width:100%;
+    height:680px;
 }
 
-.container .img-container  img.active{
-    display: block;
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:rgb(38, 51, 135);
+    z-index:20;
 }
 
-
-.prev,.next{
-    float: left;
-    margin-top: 280px;
-    cursor: pointer;
-}
-
-.prev{
-    position: absolute;
-    margin-left:20px;
-    z-index: 1;
-}
-
-.next{
-    position: absolute;
-    margin-left:1500px;
-    float: right;
-    z-index: 1;
+.swiper .swiper-pagination-bullet-active{
+    background:rgb(38, 51, 135);
 }
 
 .mini-bg-sean{
-    width:100%;
-    height:100%;
-    padding-top: 200px;
-    padding-left: 300px;
+    width:80%;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: 200px;
+    flex-direction: column;
     color:white;
     position: absolute;
+    z-index: 10;
 }
 
 .mini-bg-sean h2{

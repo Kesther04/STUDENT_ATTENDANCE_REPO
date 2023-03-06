@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/home_design.css" media="all">
     <link rel="stylesheet" href="css/homethr_design.css" media="all">
+    <link rel="stylesheet" href="css/bin_cd.css">
+    
     <title>HOME NILE</title>
 </head>
 <body>
-    <script src="js/jquery.js"></script>
     <script src="js/header_move.js"></script>
-    <script src="js/metro.js"></script>
     <div class="header">
             <div><img src="pic/30w.svg"></div>
 
@@ -36,29 +36,36 @@
     </div>
     
     <section class="first-main-div">
+
         <div class="sean">
             <p>NOTICE TO OUR DEAR PARENTS AND GUARDIANS ></p>
         </div>
 
-        
         <div class="bg-sean">
-            
-            
+              
             <div class="container">
-                
-                <img src="pic/3ar.png" width="60" class="prev" alt="Prev">
-                <img src="pic/5ar.png" width="65" class="next" alt="Next">
-                
-                <div class="bf-con"></div>
-                <div class="img-container">
-                    <img src="pic/4a.jpg" class="active" id="first">
-                    <img src="pic/4e.jpg">
-                    <img src="pic/4c.jpg">
-                    <img src="pic/4d.jpg" id="last">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="pic/4a.jpg"></div>
+                        <div class="swiper-slide"><img src="pic/4e.jpg"></div>
+                        <div class="swiper-slide"><img src="pic/4c.jpg"></div>
+                        <div class="swiper-slide"><img src="pic/4d.jpg"></div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+  
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+  
                 </div>
-
-
             </div>
+            
+            
 
             <div class="mini-bg-sean">
                 <h2>Find out about our exciting programmes</h2>
@@ -69,6 +76,8 @@
 
 
     </section>
+    <script src="js/bin_cd.js"></script>
+    <script src="js/eee.js"></script>
 
     <section class="sec-main-div">
         <div class="inner-sec-div" style="background-color: rgb(52, 52, 171);color:white;">
@@ -98,5 +107,6 @@
 
         <div style="width:100%;float:left;font-size:40px;margin-top:80px;">Chat with our Students</div>
     </section>
+   
 </body>
 </html>
