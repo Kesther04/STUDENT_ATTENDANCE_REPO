@@ -82,7 +82,7 @@
     <script src="js/eee.js"></script>
 
     <section class="sec-main-div">
-        <div class="inner-sec-div" style="background-color: rgb(52, 52, 171);color:white;">
+        <div class="inner-sec-div" style="background-color: rgb(52, 52, 171);color:white;"> 
         <p>Undergraduate Degrees<br>(B.Sc. / B.A / MBBS / LLB)</p><hr>
 
         <p>Join our lively community of<br> undergraduate students and choose<br> 
@@ -107,8 +107,10 @@
         <p style="padding-top:80px;">Learn More ></p>
         </div>
 
-        <div style="width:100%;float:left;font-size:40px;margin-top:80px;">Chat with our Students</div>
+        
     </section>
+
+    <div style="width:100%;float:left;font-size:40px;margin-top:80px;">Chat with our Students</div>
    
 </body>
 </html>
